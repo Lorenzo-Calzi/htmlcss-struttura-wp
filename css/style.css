@@ -22,27 +22,27 @@
 
 header{
     height: 170px;
-    background-color: yellow;
+    background-color: lightcyan;
 }
 
 .contanier_logo{
     width: 100%;
     height: 80px;
-    background-color: darkkhaki;
+    background-color: thistle;
     margin-bottom: 1rem;
 }
 
 .logo{
     height: 100%;
     width: 80px;
-    background-color: orange;
+    background-color: rebeccapurple;
     float: left;
 }
 
 .logo_text{
     height: 100%;
     width: 90px;
-    background-color: red;
+    background-color: blueviolet;
     float: left;
 }
 
@@ -56,21 +56,22 @@ header{
 .contanier_nav{
     width: 100%;
     height: 50px;
-    background-color: darkviolet ;
+    background-color: mediumpurple ;
 }
 
 .sections{
     height: 100%;
     width: 95px;
-    background-color: deeppink;
+    background-color: purple;
     float: left;
-    border: 1px solid purple;
+    margin-right: 5px;
+    
 }
 /* /Header */
 
 /* Main */
 .container_content{
-    background-color: lightgray;
+    background-color: lightcyan;
     margin-bottom: 10px;
 }
 
@@ -211,3 +212,4 @@ main{
     position: absolute;
     right: 45%;
 }
+/* /Footer */
