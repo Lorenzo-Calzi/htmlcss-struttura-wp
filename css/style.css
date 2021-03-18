@@ -105,6 +105,7 @@ main{
     width: 100%;
     height: auto;
     background-color: darkblue;
+    margin-bottom: 20px;
 }
 
 .titolo{
@@ -118,3 +119,76 @@ main{
     height: 15px;
     background-color: cornflowerblue; 
 }
+
+/* Colonna Sinistra */
+.left_side{
+    height: 380px;
+    width: 15%;
+    background-color: gray;
+    float: left;
+}
+
+ #img_left{
+    height: 180px;
+    background-color: coral;  
+ }
+
+ #titolo_left{
+     height: 20px;
+     background-color: darksalmon;
+ }
+
+#paragrafo_left{
+    height: 180px;
+    background-color: indianred;
+}
+/* /Colonna Sinistra */
+
+/* Colonna Centrale */
+.center_side{
+    height: 380px;
+    width: 67%;
+    background-color: gray;
+    float: left;
+    margin-left: 20px;
+    margin-right: 21px;
+}
+
+ #img_center{
+    height: 180px;
+    background-color: peru;  
+ }
+
+ #titolo_center{
+     height: 20px;
+     background-color: rosybrown;
+ }
+
+#paragrafo_center{
+    height: 180px;
+    background-color: sandybrown;
+}
+/* /Colonna Centrale */
+
+/* Colonna Destra */
+.right_side{
+    height: 380px;
+    width: 15%;
+    background-color: gray;
+    float: left;
+}
+
+ #img_right{
+    height: 180px;
+    background-color: coral;  
+ }
+
+ #titolo_right{
+     height: 20px;
+     background-color: darksalmon;
+ }
+
+#paragrafo_right{
+    height: 180px;
+    background-color: indianred;
+/* /Colonna Destra */
