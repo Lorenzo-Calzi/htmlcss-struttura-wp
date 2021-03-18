@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+.container_site{
+    width: 90%;
+    margin: auto;
+}
+
 .clearfix::after{
     content: "";
     display: table;
@@ -11,8 +16,6 @@
 }
 
 .contanier_header{
-    width: 90%;
-    margin: auto;
     background-color: gray;
 }
 
@@ -66,9 +69,7 @@ header{
 
 
 .container_content{
-    width: 90%;
-    margin: auto;
-    background-color: gray; 
+    background-color: gray;
 }
 
 main{
@@ -77,9 +78,11 @@ main{
 }
 
 .sfondo{
+    height: 100%;
     position: relative;
-
+    margin-bottom: 1rem;
 }
+
 #content_1{
     height: 50px;
     width: 600px;
@@ -96,4 +99,22 @@ main{
     position: absolute;
     top: 250px;
     left: 50px   
+}
+
+.container_text{
+    width: 100%;
+    height: auto;
+    background-color: darkblue;
+}
+
+.titolo{
+    width: 20%;
+    height: 40px;
+    background-color: blue; 
+}
+
+.sottotitolo{
+    width: 23%;
+    height: 15px;
+    background-color: cornflowerblue; 
 }
