@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;    
+}
+
+.contanier_header{
+    width: 90%;
+    margin: auto;
+    background-color: gray;
+}
+
+header{
+    height: 200px;
+    background-color: yellow;
+}
+
+.logo{
+    height: 70px;
+    width: 70px;
+    background-color: orange;
+    float: left;
+}
+
+.logo_text{
+    height: 70px;
+    width: 90px;
+    background-color: red;
+    float: left;
+}
+
+.riga_verticale{
+    height: 70px;
+    width: 3px;
+    background-color: orchid;
+    float: left;
+}
